@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'teste' "
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,11 +16,7 @@
       "standard"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'teste' "
-    }
-  },
+  
   "author": "",
   "license": "ISC",
   "devDependencies": {
