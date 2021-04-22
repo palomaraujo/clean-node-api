@@ -11,13 +11,11 @@
       "standard"
     ]
   },
-  
   "husky": {
     "hooks": {
       "pre-commit": "echo 'teste' "
     }
   },
-
   "author": "",
   "license": "ISC",
   "devDependencies": {
